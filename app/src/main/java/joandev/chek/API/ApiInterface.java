@@ -1,4 +1,4 @@
-package joandev.chek;
+package joandev.chek.API;
 
 import org.json.JSONObject;
 
@@ -12,7 +12,7 @@ import retrofit.http.Query;
 /**
  * Created by joanbarroso on 28/3/15.
  */
-public interface LogInService {
+public interface ApiInterface {
     @POST("/user")
     void login(@Body User body, Callback<String> callback);
 
