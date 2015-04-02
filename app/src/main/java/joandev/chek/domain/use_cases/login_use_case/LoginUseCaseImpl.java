@@ -1,10 +1,7 @@
-package joandev.chek.UI.Implementations;
+package joandev.chek.domain.use_cases.login_use_case;
 
-import android.widget.Toast;
-
-import joandev.chek.API.ApiInterface;
-import joandev.chek.Model.User;
-import joandev.chek.UI.Interactors.LoginInteractor;
+import joandev.chek.data.api.ApiInterface;
+import joandev.chek.domain.model.User;
 import retrofit.Callback;
 import retrofit.RestAdapter;
 import retrofit.RetrofitError;
@@ -13,9 +10,9 @@ import retrofit.client.Response;
 /**
  * Created by joanbarroso on 1/4/15.
  */
-public class InteactorImpl implements LoginInteractor {
+public class LoginUseCaseImpl implements LoginUseCase {
 
-    public InteactorImpl (){}
+    public LoginUseCaseImpl(){}
 
 
 

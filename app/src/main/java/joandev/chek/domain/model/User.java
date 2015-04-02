@@ -1,4 +1,4 @@
-package joandev.chek.Model;
+package joandev.chek.domain.model;
 
 /**
  * Created by joanbarroso on 28/3/15.

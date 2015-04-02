@@ -1,13 +1,9 @@
-package joandev.chek.API;
+package joandev.chek.data.api;
 
-import org.json.JSONObject;
-
-import joandev.chek.Model.User;
+import joandev.chek.domain.model.User;
 import retrofit.Callback;
 import retrofit.http.Body;
-import retrofit.http.Field;
 import retrofit.http.POST;
-import retrofit.http.Query;
 
 /**
  * Created by joanbarroso on 28/3/15.
